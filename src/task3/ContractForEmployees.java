@@ -1,16 +1,12 @@
 package task3;
 
 import java.util.Date;
-import java.util.Calendar;
 
 public class ContractForEmployees implements Document {
     private Date date;
     private int num;
     private Date dateOfEnd;
     private String name;
-
-    Calendar c = Calendar.getInstance();
-
 
     public ContractForEmployees() {
     }

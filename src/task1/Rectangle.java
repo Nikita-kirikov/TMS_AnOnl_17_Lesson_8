@@ -2,15 +2,19 @@ package task1;
 
 public class Rectangle extends Figure {
 
-    private int side;
-    private int diagonal;
+    private int sideA;
+    private int sideB;
 
-    public Rectangle(int side, int diagonal) {
-        this.side = side;
-        this.diagonal = diagonal;
+    public Rectangle(int sideA, int sideB) {
+        this.sideA = sideA;
+        this.sideB = sideB;
     }
 
-    public int area() {
-        return side * diagonal;
+    public float getArea() {
+        return sideA * sideB;
+    }
+
+    public float getPerimeter() {
+        return 2 * (sideA + sideB);
     }
 }

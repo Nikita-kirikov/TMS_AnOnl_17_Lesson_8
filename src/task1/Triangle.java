@@ -2,15 +2,21 @@ package task1;
 
 public class Triangle extends Figure {
 
-    private int height;
-    private int side;
+    private int sideA;
+    private int sideB;
+    private int sideC;
 
-    public Triangle(int height, int side) {
-        this.height = height;
-        this.side = side;
+    public Triangle( int sideA, int sideB, int sideC) {
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.sideC = sideC;
     }
 
-    public int area() {
-        return (int) Math.pow(height, 2) * side;
+    public float getArea() {
+        return  0.5f * sideA * sideB;
+    }
+
+    public float getPerimeter() {
+        return sideA + sideB + sideC;
     }
 }
