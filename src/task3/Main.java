@@ -68,11 +68,12 @@ public class Main {
         Registr reg = new Registr();
         reg.saveDoc(employee1);
         reg.saveDoc(employee3);
-        reg.saveDoc(employee2);
         reg.saveDoc(thing2);
-        reg.saveDoc(invoice2);
+        reg.saveDoc(invoice1);
+        reg.saveDoc(invoice3);
+        reg.saveDoc(thing3);
 
         System.out.println(Arrays.toString(reg.getDocuments()));
-        reg.showInfo(invoice1);
+        reg.showInfo(invoice3);
     }
 }
