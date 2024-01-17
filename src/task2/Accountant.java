@@ -2,7 +2,10 @@ package task2;
 
 public class Accountant implements Position {
 
-    public void pos(String pos) {
-        System.out.println("Название должности " + pos);
+    private String position = "Бухгалтер";
+
+
+    public void pos() {
+        System.out.println("Название должности " + position);
     }
 }

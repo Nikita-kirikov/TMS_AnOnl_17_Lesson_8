@@ -11,8 +11,8 @@ public class Main {
         Worker worker = new Worker();
         Accountant accountant = new Accountant();
 
-        director.pos("Директор");
-        worker.pos("Рабочий");
-        accountant.pos("Бухгалтер");
+        director.pos();
+        worker.pos();
+        accountant.pos();
     }
 }
